@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DIOSSession.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWebView *oauthWebView;
+@property (strong, nonatomic) NSMutableDictionary *requestTokens;
+@property (strong, nonatomic) DIOSSession *session;
 
 @end

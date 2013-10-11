@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85C957EC428442039459CCB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5772CE583448169309D500 /* libPods.a */; };
 		A0EC7D2C18085B1500378E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D2B18085B1500378E45 /* Foundation.framework */; };
 		A0EC7D2E18085B1500378E45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D2D18085B1500378E45 /* CoreGraphics.framework */; };
 		A0EC7D3018085B1500378E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D2F18085B1500378E45 /* UIKit.framework */; };
@@ -14,13 +15,17 @@
 		A0EC7D3818085B1500378E45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D3718085B1500378E45 /* main.m */; };
 		A0EC7D3C18085B1600378E45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D3B18085B1600378E45 /* AppDelegate.m */; };
 		A0EC7D3F18085B1600378E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EC7D3D18085B1600378E45 /* Main.storyboard */; };
-		A0EC7D4218085B1600378E45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D4118085B1600378E45 /* ViewController.m */; };
 		A0EC7D4418085B1600378E45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EC7D4318085B1600378E45 /* Images.xcassets */; };
 		A0EC7D4B18085B1600378E45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D4A18085B1600378E45 /* XCTest.framework */; };
 		A0EC7D4C18085B1600378E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D2B18085B1500378E45 /* Foundation.framework */; };
 		A0EC7D4D18085B1600378E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D2F18085B1500378E45 /* UIKit.framework */; };
 		A0EC7D5518085B1600378E45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0EC7D5318085B1600378E45 /* InfoPlist.strings */; };
 		A0EC7D5718085B1600378E45 /* studentTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D5618085B1600378E45 /* studentTrackTests.m */; };
+		A0EC7D6118085B2400378E45 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EC7D6018085B2400378E45 /* AVFoundation.framework */; };
+		A0EC7D6718085C6400378E45 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D6518085C6400378E45 /* SessionManager.m */; };
+		A0EC7D6A1808829700378E45 /* JudgingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D691808829700378E45 /* JudgingViewController.m */; };
+		A0EC7D6D180882AC00378E45 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D6C180882AC00378E45 /* RegistrationViewController.m */; };
+		A0EC7D7D180892C900378E45 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC7D7C180892C900378E45 /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,23 @@
 		A0EC7D3A18085B1600378E45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0EC7D3B18085B1600378E45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0EC7D3E18085B1600378E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0EC7D4018085B1600378E45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0EC7D4118085B1600378E45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A0EC7D4318085B1600378E45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0EC7D4918085B1600378E45 /* studentTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studentTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EC7D4A18085B1600378E45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A0EC7D5218085B1600378E45 /* studentTrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "studentTrackTests-Info.plist"; sourceTree = "<group>"; };
 		A0EC7D5418085B1600378E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0EC7D5618085B1600378E45 /* studentTrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studentTrackTests.m; sourceTree = "<group>"; };
+		A0EC7D6018085B2400378E45 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A0EC7D6418085C6400378E45 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		A0EC7D6518085C6400378E45 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		A0EC7D681808829700378E45 /* JudgingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgingViewController.h; sourceTree = "<group>"; };
+		A0EC7D691808829700378E45 /* JudgingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgingViewController.m; sourceTree = "<group>"; };
+		A0EC7D6B180882AC00378E45 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		A0EC7D6C180882AC00378E45 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		A0EC7D7B180892C900378E45 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		A0EC7D7C180892C900378E45 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		C29479B62750477ABE45FB51 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DA5772CE583448169309D500 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EC7D6118085B2400378E45 /* AVFoundation.framework in Frameworks */,
 				A0EC7D2E18085B1500378E45 /* CoreGraphics.framework in Frameworks */,
 				A0EC7D3018085B1500378E45 /* UIKit.framework in Frameworks */,
 				A0EC7D2C18085B1500378E45 /* Foundation.framework in Frameworks */,
+				85C957EC428442039459CCB7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +102,7 @@
 				A0EC7D5018085B1600378E45 /* studentTrackTests */,
 				A0EC7D2A18085B1500378E45 /* Frameworks */,
 				A0EC7D2918085B1500378E45 /* Products */,
+				C29479B62750477ABE45FB51 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +118,12 @@
 		A0EC7D2A18085B1500378E45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0EC7D6018085B2400378E45 /* AVFoundation.framework */,
 				A0EC7D2B18085B1500378E45 /* Foundation.framework */,
 				A0EC7D2D18085B1500378E45 /* CoreGraphics.framework */,
 				A0EC7D2F18085B1500378E45 /* UIKit.framework */,
 				A0EC7D4A18085B1600378E45 /* XCTest.framework */,
+				DA5772CE583448169309D500 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +134,14 @@
 				A0EC7D3A18085B1600378E45 /* AppDelegate.h */,
 				A0EC7D3B18085B1600378E45 /* AppDelegate.m */,
 				A0EC7D3D18085B1600378E45 /* Main.storyboard */,
-				A0EC7D4018085B1600378E45 /* ViewController.h */,
-				A0EC7D4118085B1600378E45 /* ViewController.m */,
+				A0EC7D681808829700378E45 /* JudgingViewController.h */,
+				A0EC7D691808829700378E45 /* JudgingViewController.m */,
+				A0EC7D6B180882AC00378E45 /* RegistrationViewController.h */,
+				A0EC7D6C180882AC00378E45 /* RegistrationViewController.m */,
+				A0EC7D7B180892C900378E45 /* CameraViewController.h */,
+				A0EC7D7C180892C900378E45 /* CameraViewController.m */,
+				A0EC7D6418085C6400378E45 /* SessionManager.h */,
+				A0EC7D6518085C6400378E45 /* SessionManager.m */,
 				A0EC7D4318085B1600378E45 /* Images.xcassets */,
 				A0EC7D3218085B1500378E45 /* Supporting Files */,
 			);
@@ -159,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0EC7D5A18085B1600378E45 /* Build configuration list for PBXNativeTarget "studentTrack" */;
 			buildPhases = (
+				B21A5746DCE3429593D2B890 /* Check Pods Manifest.lock */,
 				A0EC7D2418085B1500378E45 /* Sources */,
 				A0EC7D2518085B1500378E45 /* Frameworks */,
 				A0EC7D2618085B1500378E45 /* Resources */,
+				8DD0CEBCBBC344D8B3064763 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +271,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DD0CEBCBBC344D8B3064763 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21A5746DCE3429593D2B890 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0EC7D2418085B1500378E45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EC7D4218085B1600378E45 /* ViewController.m in Sources */,
+				A0EC7D6718085C6400378E45 /* SessionManager.m in Sources */,
+				A0EC7D6D180882AC00378E45 /* RegistrationViewController.m in Sources */,
+				A0EC7D6A1808829700378E45 /* JudgingViewController.m in Sources */,
+				A0EC7D7D180892C900378E45 /* CameraViewController.m in Sources */,
 				A0EC7D3C18085B1600378E45 /* AppDelegate.m in Sources */,
 				A0EC7D3818085B1500378E45 /* main.m in Sources */,
 			);
@@ -375,6 +438,7 @@
 		};
 		A0EC7D5B18085B1600378E45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29479B62750477ABE45FB51 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +452,7 @@
 		};
 		A0EC7D5C18085B1600378E45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29479B62750477ABE45FB51 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +525,7 @@
 				A0EC7D5C18085B1600378E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0EC7D5D18085B1600378E45 /* Build configuration list for PBXNativeTarget "studentTrackTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +534,7 @@
 				A0EC7D5F18085B1600378E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
