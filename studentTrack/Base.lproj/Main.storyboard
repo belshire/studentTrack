@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mVg-T7-atv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="mVg-T7-atv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
@@ -8,15 +8,11 @@
         <scene sceneID="4Ge-Zk-JQl">
             <objects>
                 <viewController id="f5Z-Ek-DyI" customClass="JudgingViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OeB-6F-upA"/>
-                        <viewControllerLayoutGuide type="bottom" id="9Sd-5A-nTI"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nnF-Rf-kiS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.59999999999999964" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnv-Qd-xf2">
+                            <button opaque="NO" alpha="0.59999999999999964" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fnv-Qd-xf2">
                                 <rect key="frame" x="0.0" y="464" width="320" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,10 +25,25 @@
                                     <segue destination="KT6-TQ-2m4" kind="modal" identifier="toCameraVCFromJudge" id="GcI-f9-URB"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="hhP-c3-1Yo">
+                                <rect key="frame" x="0.0" y="20" width="331" height="444"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="8zu-Tl-Xeu">
+                                        <rect key="frame" x="0.0" y="0.0" width="331" height="444"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Judging" id="4as-4q-dSM"/>
+                    <connections>
+                        <outlet property="nodeContainerView" destination="8zu-Tl-Xeu" id="9mR-N7-0Qj"/>
+                        <outlet property="nodeScrollView" destination="hhP-c3-1Yo" id="scJ-H4-E6B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ewa-p4-CLz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,10 +53,6 @@
         <scene sceneID="zxS-JY-gd5">
             <objects>
                 <viewController id="KT6-TQ-2m4" customClass="CameraViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UO5-72-PFx"/>
-                        <viewControllerLayoutGuide type="bottom" id="7Qf-D3-0zE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nvM-Jr-c8l">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -82,15 +89,11 @@
         <scene sceneID="xok-I9-vMZ">
             <objects>
                 <viewController id="zzl-FQ-jkT" customClass="RegistrationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xPY-kX-Xtg"/>
-                        <viewControllerLayoutGuide type="bottom" id="Dkv-c6-jPk"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="U0x-U8-bLK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.59999999999999964" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wta-lw-rcf">
+                            <button opaque="NO" alpha="0.59999999999999964" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wta-lw-rcf">
                                 <rect key="frame" x="0.0" y="464" width="320" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -119,6 +122,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Z0d-ih-yrp"/>
+        <segue reference="GcI-f9-URB"/>
     </inferredMetricsTieBreakers>
 </document>

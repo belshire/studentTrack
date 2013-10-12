@@ -12,6 +12,8 @@
 
 @interface JudgingViewController : UIViewController <RVCDelegate,UIPickerViewDataSource,UIPickerViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UIScrollView *nodeScrollView;
+@property (weak, nonatomic) IBOutlet UIView *nodeContainerView;
 @property (strong, nonatomic) CameraViewController *rvc;
 @property (strong, nonatomic) NSString *node_medal;
 @property (strong, nonatomic) NSArray *possibleMedals;
