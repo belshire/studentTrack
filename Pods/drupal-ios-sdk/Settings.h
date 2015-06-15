@@ -1,4 +1,4 @@
-#define kDiosBaseUrl @"https://dallas-show.dsvc.org"
+#define kDiosBaseUrl @"https://nationalstudentshow.com/store"
 #define kDiosEndpoint @"api2"
 #define kDiosBaseNode @"node"
 #define kDiosBaseComment @"comment"

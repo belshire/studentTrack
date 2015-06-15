@@ -23,7 +23,7 @@
     CGFloat screenHeight = screenRect.size.height;
     self.oauthWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 20, screenWidth, screenHeight-20)];
     
-    [DIOSSession sharedOauthSessionWithURL:@"https://dallas-show.dsvc.org" consumerKey:@"EvH5vzxWJGFGo5RD2gz8JPN6LiFuEBJV" secret:@"ATKr6jCtCCsZAsockYrQHysmc2944cDi"];
+    [DIOSSession sharedOauthSessionWithURL:@"https://nationalstudentshow.com/store" consumerKey:@"EvH5vzxWJGFGo5RD2gz8JPN6LiFuEBJV" secret:@"ATKr6jCtCCsZAsockYrQHysmc2944cDi"];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *access_token = [defaults objectForKey:@"access_token"];
